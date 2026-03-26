@@ -1,0 +1,23 @@
+# 1. 忽略虚拟环境 (非常重要)
+# 你的截图显示你正在使用 .venv
+.venv/
+venv/
+ENV/
+
+# 2. 忽略 Python 运行缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. 忽略生成的 Excel 文件
+# 避免每次运行脚本产生的测试文件都提交到 Git
+*.xlsx
+*.xls
+*.csv
+
+# 4. 忽略 VS Code 配置文件夹
+.vscode/
+
+# 5. 忽略操作系统产生的临时文件
+.DS_Store
+Thumbs.db
