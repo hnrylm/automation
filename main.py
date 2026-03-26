@@ -60,7 +60,10 @@ worksheet.column_dimensions['B'].width = 12
 worksheet.column_dimensions['C'].width = 12
  
 # 5. 保存
-workbook.save("product_list.xlsx")
-print("Bug 已修复！现在使用的是 SUMPRODUCT 逻辑。")
+# workbook.save("product_list.xlsx")
+# print("Bug 已修复！现在使用的是 SUMPRODUCT 逻辑。")
 
-
+# 6. 把第五点变成函数
+def generate_excel():
+    workbook.save("product_list.xlsx")
+    print("Bug 已修复！现在使用的是 SUMPRODUCT 逻辑。")
